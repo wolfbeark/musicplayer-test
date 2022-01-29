@@ -1,0 +1,69 @@
+.cur-music {
+  width: var(--content-sizeWidth);
+  height: 500px;
+  margin-top: 80px;
+  padding: 20px 20px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.cur-music__img {
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+}
+.cur-music__img #img2 {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  box-shadow: 0 20px 60px rgb(113, 205, 234);
+  border: none;
+}
+.cur-music__img #img1 {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  box-shadow: 0 20px 60px rgb(113, 205, 234);
+  border: none;
+}
+.cur-music__img #img3 {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  box-shadow: 0 20px 60px rgb(222, 3, 13);
+  border: none;
+}
+.cur-music__img #img4 {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  box-shadow: 0 20px 60px rgb(207, 143, 118);
+  border: none;
+}
+.cur-music__info {
+  width: 420px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.cur-music__info--song {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 420px;
+  font-size: 40px;
+}
+.cur-music__info--singer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 420px;
+  font-size: 25px;
+  opacity: 0.5;
+}

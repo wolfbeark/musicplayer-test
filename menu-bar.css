@@ -1,0 +1,22 @@
+.menu-bar {
+  width: var(--content-sizeWidth);
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  position: fixed;
+  z-index: 5;
+  background-color: white;
+}
+
+.menu-bar div {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-bar div i {
+  font-size: 20px;
+  font-weight: 600;
+}

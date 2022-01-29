@@ -1,0 +1,44 @@
+@import "reset.css";
+@import "menu-bar.css";
+@import "selected-singer.css";
+@import "etc-btns.css";
+@import "musiclist.css";
+@import "sub-musicPlayer.css";
+
+@import "curmusic-info.css";
+@import "playtime.css";
+@import "cur-music__controller.css";
+
+:root {
+  --content-sizeWidth: 460px;
+  --color-wickblack: rgb(49, 49, 49);
+}
+body {
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bebas Neue", cursive;
+  padding-bottom: 20px;
+  width: 100vw;
+  height: 140vh;
+}
+* {
+  box-sizing: border-box;
+}
+.main {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  width: 500px;
+  height: 1000px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 0px 20px 20px 20px;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: inherit;
+}

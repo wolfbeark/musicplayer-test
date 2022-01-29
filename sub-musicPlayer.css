@@ -1,0 +1,49 @@
+.sub-musicPlayer {
+  width: var(--content-sizeWidth);
+  height: 100px;
+  background-color: var(--color-wickblack);
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+.sub-musicPlayer__curSonginfo {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 100px;
+  justify-content: center;
+  padding-left: 40px;
+  flex-wrap: nowrap;
+}
+.sub-musicPlayer__curSonginfo div {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+.sub-musicPlayer__curSonginfo--song {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+.sub-musicPlayer__curSonginfo--singer {
+  font-size: 18px;
+  color: white;
+  opacity: 0.4;
+  letter-spacing: 4px;
+}
+
+.sub-musicPlayer__controler {
+  width: 40%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.sub-musicPlayer__controler i {
+  font-size: 30px;
+  color: white;
+  margin: 0px 20px;
+}

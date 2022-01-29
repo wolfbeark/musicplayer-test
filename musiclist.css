@@ -1,0 +1,79 @@
+.musiclist {
+  width: var(--content-sizeWidth);
+  height: 380px;
+  padding: 5px 0px;
+  margin-bottom: 10px;
+}
+.musiclist__items {
+  height: fit-content;
+  display: block;
+  text-decoration: none;
+}
+.musiclist__items__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: var(--content-sizeWidth);
+  height: 80px;
+  margin-bottom: 10px;
+  padding: 0px 20px;
+  background-color: tomato;
+  border-radius: 20px;
+  transition: box-shadow 0.2s ease-in-out;
+  box-shadow: 0 0 0px black;
+  will-change: box-shadow;
+}
+.musiclist__items__item:hover {
+  box-shadow: 0 0 10px black;
+}
+.musiclist__items__item--thum {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.musiclist__items__item--musicinfo {
+  height: 80px;
+  width: 300px;
+}
+.musiclist__items__item--etc {
+  height: 50px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+.musiclist__items__item--etc i {
+  font-size: 25px;
+  opacity: 0.4;
+}
+.musiclist__items__item--musicinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height: 80px;
+  padding: 0px 0px 0px 10px;
+}
+.musiclist__items__item--musicinfo div {
+  height: 40px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+.musiclist__items__item--musicinfo--singer a {
+  font-size: 20px;
+  opacity: 0.5;
+  font-weight: 500;
+}
+.musiclist__items__item--musicinfo--song span {
+  font-size: 30px;
+  font-weight: 500;
+}
+.musiclist__items__item--thum img {
+  width: inherit;
+  height: inherit;
+  border-radius: 10px;
+}

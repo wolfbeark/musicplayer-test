@@ -1,0 +1,18 @@
+.cur-music__controller {
+  width: var(--content-sizeWidth);
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.cur-music__controller div:nth-child(3) {
+  font-size: 100px;
+}
+.cur-music__controller div:nth-child(2n) {
+  font-size: 50px;
+}
+.cur-music__controller div:first-child,
+.cur-music__controller div:last-child {
+  font-size: 30px;
+  opacity: 0.5;
+}

@@ -1,0 +1,26 @@
+.playtime {
+  width: var(--content-sizeWidth);
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.playtime__times {
+  width: var(--content-sizeWidth);
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.playtime__slidebar {
+  width: var(--content-sizeWidth);
+  height: 30px;
+}
+.playtime__slidebar--range {
+  width: var(--content-sizeWidth);
+  height: 30px;
+  background: black;
+  padding: 0px;
+}
